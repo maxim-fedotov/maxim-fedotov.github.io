@@ -91,10 +91,10 @@ a:hover {
   flex: 2 1 260px;
 }
 
-.about-text h1 {
+.about-text h2 {
   margin-top: 0;
   margin-bottom: 0.75rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .about-text p {
@@ -171,8 +171,8 @@ a:hover {
     padding-top: 1.5rem;
   }
 
-  .about-text h1 {
-    font-size: 1.6rem;
+  .about-text h2 {
+    font-size: 1.4rem;
   }
 }
 
@@ -200,4 +200,18 @@ a:hover {
 section[id],
 [id].anchor-target {
   scroll-margin-top: calc(var(--header-offset));
+}
+
+
+.about-contact {
+  margin-top: 1rem;
+}
+
+.about-contact a {
+  font-weight: 500;
+}
+
+.project-list p {
+  margin: 0.35rem 0 0;
+  color: #374151;
 }
