@@ -127,6 +127,20 @@ a:hover {
   color: #374151;
 }
 
+/* Papers / publications */
+.paper-list {
+  margin-top: 0.75rem;
+}
+
+.paper-item {
+  margin-bottom: 1.4rem;
+}
+
+.paper-links {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+}
+
 /* Lists used on Presentations / Teaching pages */
 .item-list {
   list-style: none;
