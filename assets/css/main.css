@@ -42,10 +42,9 @@ a:hover {
 
 .header-inner {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
 }
 
 .site-title a {
@@ -60,13 +59,15 @@ a:hover {
   color: #6b7280;
 }
 
-.site-nav a {
-  margin-left: 1rem;
-  font-size: 0.95rem;
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
 }
 
-.site-nav a:first-child {
+.site-nav a {
   margin-left: 0;
+  font-size: 0.95rem;
 }
 
 .site-nav a.active {
@@ -169,11 +170,6 @@ a:hover {
 @media (max-width: 640px) {
   .header-inner {
     align-items: flex-start;
-  }
-
-  .site-nav {
-    width: 100%;
-    margin-top: 0.5rem;
   }
 
   .about {
